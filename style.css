@@ -45,13 +45,12 @@ header {
 	max-width: 100%;
 }
 
-header,
-nav {
-	border: 2px solid lime;
+
 }
 header {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 .header__container,
 .nav__links {
@@ -69,4 +68,9 @@ nav {
 	width: 100%;
 	padding: 0;
 	justify-content: space-between;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
