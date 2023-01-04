@@ -77,10 +77,3 @@ select {
 		scroll-behavior: auto !important;
 	}
 }
-
-* {
-	list-style-type: none;
-	text-decoration: none;
-	font-family: inherit;
-	font-size: inherit;
-}
