@@ -82,3 +82,10 @@ select {
 	text-decoration: none;
 	font-size: inherit;
 }
+.image-container {
+	overflow: hidden;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}

@@ -13,6 +13,7 @@
 	--off-white: #fffdfa;
 
 	--border: 1px solid rgb(226, 226, 226);
+	--gap: 4rem;
 }
 
 h1,
@@ -44,9 +45,19 @@ header {
 .container {
 	max-width: 100%;
 }
-
-
+.btn {
+	cursor: pointer;
 }
+.primary-btn {
+	background-color: var(--primary-soft-red);
+	padding: 8px 20px;
+	transition: all 300ms ease;
+}
+.primary-btn:hover {
+	letter-spacing: 1px;
+	background-color: var(--verry-dark-blue);
+}
+
 header {
 	display: flex;
 	flex-direction: column;
